@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lacquer", system-ui;
+}
+
+body {
+    background-color: #E7E7E7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: rgba(149, 94, 201, 0.13);
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
+}
+
+header h1{
+    color: rgba(103, 21, 179, 0.719);
+    font-weight: bold;
+}
+
+.container {
+    background: linear-gradient(100deg, rgba(195, 143, 211, 0.573) 0% ,rgba(144, 202, 209, 0.479) 100%);
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 19px;
+    border-bottom: 10px rgba(177, 78, 169, 0.47) solid;
+    margin-top: 90px;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+form input {
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid rgba(125, 15, 158, 0.555);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form button {
+    font-size: 14px;
+    padding: 8px;
+    border: 2px solid paleturquoise;
+    border-radius: 10px;
+    background-color: rgba(121, 37, 199, 0.829);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-tabela {
+    background: linear-gradient(100deg, rgba(195, 143, 211, 0.205) 0% ,rgba(144, 202, 209, 0.185) 100%);
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 19px;
+    border-bottom: 10px rgba(177, 78, 169, 0.253) solid;
+    margin-top: 26px;
+    color: #726d6d;
+}
+
+table {
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #811aa05e;
+    font-size: 24px;
+    padding: 16px;
+    font-weight: bold;
+    color: rgba(86, 35, 145, 0.534);
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgba(149, 94, 201, 0.13);
+    color: rgba(86, 35, 145, 0.534);
+    padding: 12px;
+    margin-top: 130px;
+    text-align: center;
+}
